@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     background-color: rgb(231, 231, 1);
-    
+    text-decoration: none;
 }
 
 body{
@@ -42,7 +42,7 @@ main {
 }
 
 .logo-uniasselvi {
-    width: 600px;
+    max-width: 600px;
     margin-bottom: 20px;
     align-content: flex-start;
 }
@@ -53,16 +53,45 @@ main {
     border-radius: 30px;
     border-color: #56357f;
     text-align: center;
-    background-color: rgba(86, 53, 127,0.5);
+    color: #56357f;
+    background-color: rgba(226, 224, 230, 0.5);
 }
+
 
 .btn{
+    display: flex;
     margin-top: 20px;    
+    gap: 20px;
 }
 .botao{
-    background: #56357f;
+    width: 100px;
+    height: 30px;
+    background: #75638b;
     border: none;
+    border-radius: 15px;
     color: aliceblue;
-    padding: 10px;
 
+}
+.powered{
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+
+.link-github{
+    color:#c00d48;
+}
+
+.links{
+    margin margin-top: 1px solid aliceblue;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap:35px;
+    color: #56357f ;
+    height: 12vh;
+    padding: 20px;
+    font-weight: bold;
 }
